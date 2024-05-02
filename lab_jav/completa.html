@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>DOcument</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='completa.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <h1>Mostrador de Productos</h1>
+    <div class="image-container">
+        <img src="images/cepillo.jpg" alt="Image 1" class="image" 
+        data-desciption="Cepillo Precio: 25 Bs.-">
+        <img src="images/detergente.jpg" alt="Image 2" class="image" 
+        data-desciption="Detergente 5Kgs Precio: 95 Bs.-">
+        <img src="images/jaboncillo.jpg" alt="Image 3" class="image" 
+        data-desciption="Jaboncillo 25Grs Precio: 30 Bs.-">
+
+        <div id="modal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <p id="modal-description"></p>
+            </div>
+        </div>
+    </div>
+    <script src="completa.js"></script>
+</body>
+</html>
